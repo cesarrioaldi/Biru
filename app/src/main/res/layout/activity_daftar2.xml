@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/daftarbg"
+    android:id="@+id/asu"
+    tools:context=".Daftar2Activity">
+
+    <LinearLayout
+        android:id="@+id/linearputih"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvcarilokasi"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cari Lokasi Kamu"
+            android:fontFamily="@font/gothammediumregular"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/searchbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/bg_searchbox"
+            android:drawableRight="@drawable/ic_search_black_24dp"
+            android:fontFamily="@font/gothambook"
+            android:hint="Tulis Jalan/Perumahan/Gedung"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

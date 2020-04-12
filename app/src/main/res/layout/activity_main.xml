@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+   <RelativeLayout
+       android:id="@+id/relativ_background"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="10"/>
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="10">
+
+               <LinearLayout
+                   android:layout_weight="2.1"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"/>
+
+               <LinearLayout
+                   android:orientation="vertical"
+                   android:weightSum="70"
+                   android:layout_weight="1"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+
+                   <LinearLayout
+                       android:layout_weight="11"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+                   <LinearLayout
+                       android:orientation="horizontal"
+                       android:id="@+id/masuk"
+                       android:layout_weight="9.9"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+                   <LinearLayout
+                       android:layout_weight="11"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+                   <LinearLayout
+                       android:orientation="horizontal"
+                       android:id="@+id/daftar"
+                       android:layout_weight="10.1"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+                   <LinearLayout
+                       android:layout_weight="10"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+                   <LinearLayout
+                       android:orientation="horizontal"
+                       android:layout_weight="10.3"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent">
+
+                       <LinearLayout
+                           android:layout_weight="4"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"/>
+
+                       <LinearLayout
+                        android:orientation="vertical"
+                           android:id="@+id/google"
+                           android:layout_weight="1"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"/>
+
+                       <LinearLayout
+                           android:layout_weight="4"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"/>
+
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_weight="10"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_weight="2.1"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"/>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+   </RelativeLayout>
+
+</RelativeLayout>
